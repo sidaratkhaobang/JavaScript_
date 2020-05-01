@@ -1,19 +1,15 @@
-function costToMake(a,b){
-    let prev = -1;
-    let cost = 0;
-    for (let i = 0; i < a.length; i++){
-        if(a[i] === b[i]){
-            prev = -1;
-        }else{
-            if (prev !== -1 && prev !== +a[i]){
-                prev = -1;
-            }else{
-                cost++;
-                prev = +a[i];
+function longsetDupSubString(str){
+    for (let length = str.length - 1; length >= 1; length--){
+        for (let startIndex = 0; startIndex <= str.length - length; startIndex++){
+            const substr = str.slice(startIndex, startIndex + length);
+            if(str.indexOf(substr) !== str.lastIndexOf(substr)){
+                console.log(substr);
+                // return substr;
             }
         }
     }
-    console.log(cost);
+    // console.log("not found!!");
 }
 
-costToMake("001","100");
+
+longsetDupSubString("abdab");

@@ -1,15 +1,18 @@
-function longsetDupSubString(str){
-    for (let length = str.length - 1; length >= 1; length--){
-        for (let startIndex = 0; startIndex <= str.length - length; startIndex++){
-            const substr = str.slice(startIndex, startIndex + length);
-            if(str.indexOf(substr) !== str.lastIndexOf(substr)){
-                console.log(substr);
-                // return substr;
-            }
+function fiindMin(arr){
+    let L = 0;
+    let R = arr.length - 1;
+    let result = -1;
+    while (L <= R){
+        let mid = Math.floor(L + (R - L) / 2);
+        if(arr[mid] <= arr[arr.length - 1]){
+            result = arr[mid];
+            R = mid - 1;
+        }else{
+            L = mid + 1;
         }
     }
-    // console.log("not found!!");
+
+    console.log(result);
 }
 
-
-longsetDupSubString("testtest");
+fiindMin([3,5,6,8,9]);

@@ -1,25 +1,20 @@
-function maxsetProduct(arr) {
-  let productPositive = 1;
-  let negative = [];
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] > 0) {
-      productPositive *= arr[i];
-    } else {
-      negative.push(arr[i]);
-    }
+function maxSum(arr){
+  if (arr.length === 1)
+      return arr[0];
+  
+  let noDelete = {};
+  let oneDelete = {};
+
+  noDelete[0] = arr[0];
+  oneDelete[0] = 0;
+
+  let answer = Number.MIN_SAFE_INTEGER;
+  for (let i = 1; i < arr.length; i++){
+      noDelete[i] = Math.max(noDelete[i-1] + arr[i], arr[i]);
+      oneDelete[i] = Math.max(noDelete[i-1], oneDelete[i-1] + arr[i]);
+      answer = Math.max(answer, Math.max(noDelete[i], oneDelete[i]));
   }
-  negative.sort((a, b) => a - b);
-  let maxProductNegative = Number.MIN_SAFE_INTEGER;
-  let productNegative = 1;
-  for (let i = 0; i < negative.length; i++) {
-    productNegative *= negative[i];
-    maxProductNegative = Math.max(maxProductNegative, productNegative);
-  }
-  if (negative.length === arr.length){
-      console.log(maxProductNegative);
-  }else{
-      console.log(Math.max(productPositive * maxProductNegative,productPositive));
-  }
+  console.log(answer);
 }
 
-maxsetProduct([1, 2, 3]);
+maxSum([1, 5, -1, 0]);
