@@ -1,7 +1,7 @@
 # JavaScript_Ten_day
 Learn to solve algorithm problems with javascript.
 
-_โจทย์ alogorithm จากอินเตอร์เน็ตทั่วไป_ 
+_โจทย์ algorithm จากอินเตอร์เน็ตทั่วไป_ 
 
 ## Day 1
 โจทย์ input จำนวนเต็ม 1 จำนวน หาผลรวมของตัวเลขที่รับมา 
