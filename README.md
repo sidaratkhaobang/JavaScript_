@@ -14,26 +14,26 @@ _โจทย์ algorithm จากอินเตอร์เน็ตทั�
 ## Day 2
 โจทย์ input String 1 ชุด  หาจำนวนของString ที่ซ้ำกัน 
 
-[![day2.png](https://i.postimg.cc/ZR7WJ062/day2.png)](https://postimg.cc/KkTGNGqD)
+![day2.png](https://i.postimg.cc/ZR7WJ062/day2.png)
 
 
 ## Day 3
 โจทย์ input String 1 ชุด โดยการหา sub-String ที่ซ้ำกันมากกว่า 2 ตัว ออกมา 1 ชุด 
 
-[![day4.png](https://i.postimg.cc/J7FsgDrB/day4.png)](https://postimg.cc/pyDV5dn2)
+![day4.png](https://i.postimg.cc/J7FsgDrB/day4.png)
 
 
 ## Day 4
 โจทย์ input array 1 ชุด หาจำนวนที่น้อยที่สุดใน array ชุดนั้น
 
-[![day5.png](https://i.postimg.cc/gk6xPzjt/day5.png)](https://postimg.cc/HVdYwCQb)
+![day5.png](https://i.postimg.cc/gk6xPzjt/day5.png)
 
 
 ## Day 5
 โจทย์ input array  1 ชุด ให้หาผลคูณที่มากที่สุดใน array ชุดนั้น
 
 
-[![day6.png](https://i.postimg.cc/yNndTWpx/day6.png)](https://postimg.cc/TyLfd26v)
+![day6.png](https://i.postimg.cc/yNndTWpx/day6.png)
 
 
 ## Day 6
@@ -52,22 +52,20 @@ _โจทย์ algorithm จากอินเตอร์เน็ตทั�
 และอีกมากมาย ตำแหน่งของตัวเลขนับเป็นarray เช่น 2 = 0, 3 = 1 เป็นต้น
 
 
-[![day8.png](https://i.postimg.cc/Y9sCJZHw/day8.png)](https://postimg.cc/cgfW3DCD)
+![day8.png](https://i.postimg.cc/Y9sCJZHw/day8.png)
 
 
 ## Day 7
 โจทย์ input array จำนวหนึ่ง หาผลบวกของจำนวนarray โดยไม่ต้องบวกค่าติดลบ -n หรือเลือกที่จะตัดจำนวนหนึ่งออกไปได้
 
 
-[![day9.png](https://i.postimg.cc/rsRwcjVR/day9.png)](https://postimg.cc/4HZgQzhX)
-
+![day9.png](https://i.postimg.cc/rsRwcjVR/day9.png)
 
 ## Day 8
 โจทย์ input จำนวน 1 จำนวน หาsolutionความเป็นไปได้ที่จะได้รูปแบบของ parentheses ทั้งหมดที่จะเป็นไปได้ 
 
 
-[![day10.png](https://i.postimg.cc/6Ts5QZqj/day10.png)](https://postimg.cc/WqnPWhMg)
-
+![day10.png](https://i.postimg.cc/6Ts5QZqj/day10.png)
 
 
 
