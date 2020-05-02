@@ -8,7 +8,7 @@ _โจทย์ algorithm จากอินเตอร์เน็ตทั�
 
 เช่น add(3)  ผลลัพธ์ 1+2+3 = 6
 
-[![day1.png](https://i.postimg.cc/RVjn332z/day1.png)](https://postimg.cc/fJfbpbwH)
+![day1.png](https://i.postimg.cc/RVjn332z/day1.png)
 
 
 ## Day 2
